@@ -1,0 +1,8 @@
+
+1.What happens when the number of hidden nodes increase?
+
+	The accuracy was increased and the cost per iteration was decreased.
+
+2.Can you explain the pattern of the accuracy when the hidden nodes increase? 
+
+	When increasing the first several nodes accuracy increased and hit and highest accuracy and after that when nodes increased accuracy 	will reduced and maintain a constant accuracy 	and at some point the accuracy will be reduced and increased.
