@@ -1,0 +1,11 @@
+1. explain how 1D convolution can be used to identify the edges in an image?
+	throghh the filter the edges are detected , there can be number of filters can be created to detect each fetchers and edges.	
+             
+2.Why does the validation error increases when the number of epochs are increased?
+	i) it can be due to the small dataset, the model may struggle to generalize effectively, and increasing the number of epochs can make it overfit.
+	ii) to overcome this we can Use a simpler model architecture with fewer layers or neurons to reduce overfitting , use different learning rates and Apply regularization techniques 	    like L1 or L2 regularization or dropout layers.
+
+3.Explain how the mini batch SGD (Stochastic Gradient Descent) algorithm can converge faster than the batch Gradient Descent algorithm?
+
+	Mini-batch Stochastic Gradient Descent (SGD) is a method for training machine learning models that strikes a balance between computational efficiency and convergence speed. Unlike 	batch Gradient Descent, which uses the entire training dataset in each iteration, mini-batch SGD divides the data into mini-batches. By updating the model more frequently with these 	mini-batches.
+	
